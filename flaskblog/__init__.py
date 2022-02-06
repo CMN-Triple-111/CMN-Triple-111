@@ -18,8 +18,8 @@ app.config['MAIL_PORT'] = 465
 app.config['MAIL_DEBUG'] = True
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
-app.config['MAIL_USERNAME'] = 'chiikonswanamatthew@gmail.com'
-app.config['MAIL_PASSWORD'] = 'Kukenamee02'
+app.config['MAIL_USERNAME'] = 'example@gmail.com'
+app.config['MAIL_PASSWORD'] = '1234'
 mail = Mail(app)
 
 from . import routes
